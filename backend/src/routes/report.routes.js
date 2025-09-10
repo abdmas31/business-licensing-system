@@ -14,7 +14,7 @@ router.post("/", async (req, res) => {
 
     const matches = matchRequirements({ size_m2, seats, delivery, hazardous });
 
-    // Call OpenAI to generate human-friendly report
+    // Call OpenAI to generate  report
     const aiReport = await generateReport(matches, { size_m2, seats, delivery, hazardous });
 
     res.json({

@@ -67,15 +67,7 @@ function App() {
           </label>
         </div>
         <div>
-          <label>
-            <input
-              type="checkbox"
-              name="hazardous"
-              checked={form.hazardous}
-              onChange={handleChange}
-            />
-            חומרים מסוכנים
-          </label>
+          
         </div>
         <button type="submit">קבל דוח</button>
       </form>
